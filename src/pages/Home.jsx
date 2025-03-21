@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Card from 'react-bootstrap/Card'
+import { Link } from 'react-router-dom'
 
 const Home=()=> {
 
@@ -18,7 +19,7 @@ const Home=()=> {
                 Please take a look at our menu featuring food ,drinks,and brunch. if you'd like to place an <br /> order ,use the 'Order outline' button located below the menu
               </Card.Text>
               <div className="d-flex align-items-center justify-content-center">
-              <button className='btn btn-info'><a href="/login">Foods</a></button>
+              <Link to={'/login'}> <button className='btn btn-primary'>foods</button></Link>
               </div>
 
             </Card.ImgOverlay>
