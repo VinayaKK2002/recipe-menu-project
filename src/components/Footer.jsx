@@ -8,7 +8,7 @@ const Footer = () =>{
 
         <div style={{backgroundColor:'black',height:"400px"}} >
          <div className="container">
-                <Row  style={{backgroundColor:'black',paddingTop:"100px"}}>
+                <Row  style={{backgroundColor:'black',paddingTop:"200px"}}>
                     <Col className="mt-4 p-3 border rounded "   sm={12} md={6} lg={4} >
                         <h5 className="text-center" style={{color:"blue"}}>CONNECT WITH US</h5>
                         <h6 className="text-center" style={{color:"white"}}><span style={{color:"yellow"}}><i class="fa-solid fa-phone"></i>  </span>+9567843340</h6>
